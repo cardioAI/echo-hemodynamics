@@ -1,0 +1,14 @@
+torch>=2.0
+transformers
+numpy
+pandas
+scikit-learn
+scipy
+scikit-image
+opencv-python
+matplotlib
+seaborn
+openpyxl
+Pillow
+umap-learn
+pydicom

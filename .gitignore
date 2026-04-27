@@ -1,0 +1,26 @@
+# Claude Code internals
+.claude/
+keys/
+CLAUDE.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Data (not distributed)
+*.xlsx
+*.pt
+*.pth
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Results (generated, not tracked)
+archive/
