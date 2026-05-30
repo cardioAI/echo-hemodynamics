@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "echo_hemodynamics"
+version = "0.2.0"
+description = "Non-invasive prediction of hemodynamic parameters from multi-view echocardiography using a Vision Transformer with multistage attention"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Kaidong Wang" }]
+dependencies = [
+    "torch>=2.0",
+    "transformers",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "scipy",
+    "scikit-image",
+    "opencv-python",
+    "matplotlib",
+    "seaborn",
+    "openpyxl",
+    "Pillow",
+    "umap-learn",
+    "pydicom",
+]
+
+[tool.setuptools.packages.find]
+include = ["echo_hemodynamics*"]
